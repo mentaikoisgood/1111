@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <title>LAVA贊助計畫</title>
+    <style type="text/css">
+        @media (max-width: 992px) {
+            footer {
+                padding-top: 0px !important;
+                margin-top: 0px !important;
+            }
+
+            .donate-form {
+                margin-bottom: 45px;
+            }
+
+            footer .right-content {
+                text-align: center;
+            }
+
+            footer .footer-content {
+                padding: 60px 0px !important;
+            }
+        }
+
+        footer {
+            margin-top: 200px;
+            padding-top: 120px;
+            background-image: url(../images/footer-bg.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: 100%;
+        }
+
+        footer .footer-content {
+            padding: 120px 0px;
+        }
+
+        .donate-form {
+            position: relative;
+            z-index: 10;
+            padding: 45px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+        }
+
+        footer .right-content {
+            align-self: center;
+        }
+
+        .donate-form input,
+        .donate-form textarea {
+            color: #777;
+            font-size: 13px;
+            /* border: 1px solid #eee; */
+            background-color: #f7f7f7;
+            /* border-radius: 5px; */
+            /* width: 100%;
+  height: 50px;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;  */
+            /* -webkit-appearance: normal;
+  -moz-appearance: normal;
+  appearance: normal;  */
+            /* margin-bottom: 30px; */
+        }
+
+        /* .gender {
+
+  color: red;
+  font-size: 13px;
+  border: 1px solid #eee;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  width: 100%;
+  height: 50px;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-appearance: normal;
+  -moz-appearance: normal;
+  appearance: normal;
+  margin-bottom: 30px;
+  
+} */
+
+        .donate-form textarea {
+            height: 150px;
+            resize: none;
+            padding: 20px;
+        }
+
+        .donate-form {
+            text-align: left;
+        }
+
+        .donate-form ::-webkit-input-placeholder {
+            /* Edge */
+            color: #7a7a7a;
+        }
+
+        .donate-form :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: #7a7a7a;
+        }
+
+        .donate-form ::placeholder {
+            color: #7a7a7a;
+        }
+
+        .footer-content .right-content {
+            color: #fff;
+        }
+
+        .footer-content .right-content h2 {
+            margin-top: 0px;
+            margin-bottom: 30px;
+            font-size: 42px;
+            text-transform: capitalize;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .footer-content .right-content h2 em {
+            font-style: normal;
+            color: #FC3;
+        }
+
+        .footer-content .right-content p {
+            color: #FFF;
+        }
+
+        .footer-content .right-content a {
+            color: #FFF;
+        }
+
+        .footer-content .right-content a:hover {
+            color: #FC3;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <table border="1" width="600" height="400">
+        <tr>
+            <td style="text-align: center;" colspan="4"><strong>捐款人資訊</strong></td>
+        </tr>
+        <tr>
+            <td>姓名:</td>
+            <td>$name</td>
+            <td>電話:</td>
+            <td>$tel</td>
+        </tr>
+        <tr>
+            <td>性別:</td>
+            <td colspan="3">$gender</td>
+        </tr>
+        <tr>
+            <td>E-mail:</td>
+            <td colspan="3">$email</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;" colspan="4">備註</td>
+        </tr>
+        <tr>
+            <td colspan="4" rowspan="3">$message</td>
+        </tr>
+    </table>
+</body>
+
+</html>
